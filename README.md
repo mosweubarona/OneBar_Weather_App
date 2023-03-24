@@ -1,4 +1,4 @@
-# Alx-Holbeton Final Portfolio project
+# Alx-Holbeton Weather Portfolio project
 
 ## About The Project
 OneBar weather app is a weather focasting react web application for the next 5 hours, 5 days as well as giving current wind speed and humidity.
