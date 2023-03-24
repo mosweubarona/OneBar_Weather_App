@@ -11,7 +11,7 @@ OneBar weather app is a weather focasting react web application for the next 5 h
 git clone https://github.com/mosweubarona/OneBar_Weather_App.git
 ```
 
-![Deployed] (http://mosweubarona.github.io/OneBar_Weather_App)
+```Deployed link``` (http://mosweubarona.github.io/OneBar_Weather_App)
 
 ## Usage
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources
