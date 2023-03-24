@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/OneBar_Weather_App/static/css/main.2ea871d5.css",
+    "main.js": "/OneBar_Weather_App/static/js/main.b181c9ae.js",
+    "index.html": "/OneBar_Weather_App/index.html",
+    "main.2ea871d5.css.map": "/OneBar_Weather_App/static/css/main.2ea871d5.css.map",
+    "main.b181c9ae.js.map": "/OneBar_Weather_App/static/js/main.b181c9ae.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2ea871d5.css",
+    "static/js/main.b181c9ae.js"
+  ]
+}
