@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/OneBar_Weather_App/static/css/main.588b17e3.css",
-    "main.js": "/OneBar_Weather_App/static/js/main.5c822611.js",
+    "main.css": "/OneBar_Weather_App/static/css/main.5fd740fe.css",
+    "main.js": "/OneBar_Weather_App/static/js/main.d6332442.js",
     "index.html": "/OneBar_Weather_App/index.html",
-    "main.588b17e3.css.map": "/OneBar_Weather_App/static/css/main.588b17e3.css.map",
-    "main.5c822611.js.map": "/OneBar_Weather_App/static/js/main.5c822611.js.map"
+    "main.5fd740fe.css.map": "/OneBar_Weather_App/static/css/main.5fd740fe.css.map",
+    "main.d6332442.js.map": "/OneBar_Weather_App/static/js/main.d6332442.js.map"
   },
   "entrypoints": [
-    "static/css/main.588b17e3.css",
-    "static/js/main.5c822611.js"
+    "static/css/main.5fd740fe.css",
+    "static/js/main.d6332442.js"
   ]
 }
