@@ -1,10 +1,10 @@
 import "./App.css";
-import TopButtons from "./components/TopButtons";
+import TheButtons from "./components/TheButtons";
 import Inputs from "./components/Inputs";
-import TimeAndLocation from "./components/TimeAndLocation";
-import TemperatureAndDetails from "./components/TemperatureAndDetails";
-import Forecast from "./components/Forecast";
-import getFormattedWeatherData from "./services/weatherService";
+import LocalTime from "./components/LocalTime";
+import Temps from "./components/Temps";
+import Future from "./components/Future";
+import getFormattedWeatherData from "./main/service";
 import { useEffect, useState } from "react";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -18,11 +18,11 @@ function App() {
     const fetchWeather = async () => {
       const message = query.q ? query.q : "current location.";
 
-      toast.info("Searching... " + message);
+      toast.info(message);
 
       await getFormattedWeatherData({ ...query, units }).then((data) => {
         toast.success(
-          `Congrats ${data.name}, found in ${data.country}.`
+          `Found`
         );
 
         setWeather(data);
@@ -44,16 +44,16 @@ function App() {
     <div
       className={`mx-auto max-w-screen-md mt-0 py-1 px-1 bg-gradient-to-br  h-full shadow-xl shadow-gray-400 ${formatBackground()}`}
     >
-      <TopButtons setQuery={setQuery} />
+      <TheButtons setQuery={setQuery} />
       <Inputs setQuery={setQuery} units={units} setUnits={setUnits} />
 
       {weather && (
         <div>
-          <TimeAndLocation weather={weather} />
-          <TemperatureAndDetails weather={weather} />
+          <LocalTime weather={weather} />
+          <Temps weather={weather} />
 
-          <Forecast title="hourly forecast" items={weather.hourly} />
-          <Forecast title="daily forecast" items={weather.daily} />
+          <Future title="hourly forecast" items={weather.hourly} />
+          <Future title="daily forecast" items={weather.daily} />
         </div>
       )}
 

@@ -1,7 +1,7 @@
 import React from "react";
-import { formatToLocalTime } from "../services/weatherService";
+import { formatToLocalTime } from "../main/service";
 
-function TimeAndLocation({ weather: { dt, timezone, name, country } }) {
+function LocalTime({ weather: { dt, timezone, name } }) {
   return (
     <div>
       <div className="flex items-center justify-center my-6">
@@ -11,10 +11,10 @@ function TimeAndLocation({ weather: { dt, timezone, name, country } }) {
       </div>
 
       <div className="flex items-center justify-center my-3">
-        <p className="text-white text-3xl font-medium">{`${name}, ${country}`}</p>
+        <p className="text-white text-3xl font-medium">{`${name}`}</p>
       </div>
     </div>
   );
 }
 
-export default TimeAndLocation;
+export default LocalTime;

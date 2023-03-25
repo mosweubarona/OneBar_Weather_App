@@ -1,7 +1,7 @@
 import React from "react";
-import { iconUrlFromCode } from "../services/weatherService";
+import { iconUrlFromCode } from "../main/service";
 
-function Forecast({ title, items }) {
+function Future({ title, items }) {
   console.log(items);
   return (
     <div>
@@ -34,4 +34,4 @@ function Forecast({ title, items }) {
   );
 }
 
-export default Forecast;
+export default Future;

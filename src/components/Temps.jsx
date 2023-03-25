@@ -6,9 +6,9 @@ import {
   UilSun,
   UilSunset,
 } from "@iconscout/react-unicons";
-import { formatToLocalTime, iconUrlFromCode } from "../services/weatherService";
+import { formatToLocalTime, iconUrlFromCode } from "../main/service";
 
-function TemperatureAndDetails({
+function Temps({
   weather: {
     details,
     icon,
@@ -87,4 +87,4 @@ function TemperatureAndDetails({
   );
 }
 
-export default TemperatureAndDetails;
+export default Temps;
