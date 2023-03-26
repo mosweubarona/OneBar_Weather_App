@@ -6,6 +6,7 @@ OneBar weather app is a weather focasting react web application for the next 5 h
 ## Installation
 1. Drop a star on the Github Repository. 
 2. Clone the Repo by going to your local Git Client and pushing in the command
+3. npm start
 
 ```sh
 git clone https://github.com/mosweubarona/OneBar_Weather_App.git
